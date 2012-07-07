@@ -153,12 +153,11 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* Targets */
 
-.wrapper { width: 100%; /*max-width: 960px;*/  }
-
-.logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; }
 
-
+.logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.wrapper { width: 100%; /*max-width: 960px;*/ background: url('printing.jpeg') no-repeat top center; height: 1200px; }
+.wrapper-inner { width: 100%;  max-width: 960px; }
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
