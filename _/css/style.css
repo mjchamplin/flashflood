@@ -9,6 +9,9 @@
 	
 -------------------------------------------------------------------------------*/
 
+@import url("contact.css");
+
+
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
 
@@ -129,8 +132,8 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* using local fonts? make sure to read up on Paul Irish's 
 	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 
-/* we like off-black for text */
-body, select, input, textarea {color: #333;}
+
+body, select, input, textarea {color: #fff;}
 
 a {color: #03f;}
 a:hover {color: #69f;}
@@ -151,26 +154,33 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* Global Declarations */
 
-body { font-size: 13px; }
+body { font-size: 13px; background: #454545; }
 h1 { font-size: 3em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.7em; }
+.clear { clear: both; }
+
 /* Global classes */
 
 .middle { margin: 0 auto; }
 
+/* Content */
 
-/* Targets */
+header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background: #fff; }
+  .logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; }
+article { width: 100%; }
+article#upper { background: url('printing.jpeg') no-repeat center; }
+article#lower { background: #454545; border-top: 3px solid #fff; }
+  article#lower section { margin-top: 3em; background: #333; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+ 
 
-.logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-.wrapper { width: 100%; /*max-width: 960px;*/ background: url('printing.jpeg') no-repeat top center; height: 1200px; }
-.wrapper-inner { width: 100%;  max-width: 960px; padding: 2em;
--moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;	
-	
-	
-}
+.wrapper-inner { width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
+
+
+
+footer { }
+footer p { text-align: center; margin: 2em 0; }
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
@@ -211,9 +221,9 @@ body { font-size: 16px; }
 #left-column, #right-column { padding: 2em 70px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
 #left-column p, #right-column p { text-align: justify; }
 #left-column h1, #right-column h1 { text-align: center; }
-#left-column { width: 50%; float: left; border-right: 1px solid black;}
+#left-column { width: 50%; float: left; border-right: 1px solid #fff;}
 #right-column { width: 50%; float: left; }
-
+article#lower section { padding: 0 70px; }
 
 }
 
@@ -221,6 +231,7 @@ body { font-size: 16px; }
 
 body { font-size: 18px; }
 .wrapper-inner { max-width: 1160px;}
+article#lower section { max-width: 1160px; }
 
 }
 
