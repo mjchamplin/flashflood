@@ -136,8 +136,8 @@ a {color: #03f;}
 a:hover {color: #69f;}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
-::-moz-selection{background: yellow; color: #fff; text-shadow: none; }
-::selection {background: yellow; color: #fff; text-shadow: none; } 
+::-moz-selection{background: #888; color: #fff; text-shadow: none; }
+::selection {background: #888; color: #fff; text-shadow: none; } 
 
 /*	j.mp/webkit-tap-highlight-color */
 a:link {-webkit-tap-highlight-color: #fcd700;} 
@@ -146,6 +146,13 @@ ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
 
+/* My styles
+-------------------------------------------------------------------------------*/
+
+/* Global Declarations */
+
+body { font-size: 13px; }
+h1 { font-size: 3em; }
 /* Global classes */
 
 .middle { margin: 0 auto; }
@@ -157,7 +164,13 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; }
 
 .logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .wrapper { width: 100%; /*max-width: 960px;*/ background: url('printing.jpeg') no-repeat top center; height: 1200px; }
-.wrapper-inner { width: 100%;  max-width: 960px; }
+.wrapper-inner { width: 100%;  max-width: 960px; padding: 2em;
+-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;	
+	
+	
+}
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
@@ -176,6 +189,41 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; }
 	
 		
 }
+
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+body { font-size: 16px; }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+.wrapper-inner { padding: 6em 0; }
+#left-column, #right-column { padding: 2em 70px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
+#left-column p, #right-column p { text-align: justify; }
+#left-column h1, #right-column h1 { text-align: center; }
+#left-column { width: 50%; float: left; border-right: 1px solid black;}
+#right-column { width: 50%; float: left; }
+
+
+}
+
+@media only screen and (min-width: 1382px) {
+
+body { font-size: 18px; }
+.wrapper-inner { max-width: 1160px;}
+
+}
+
 
 @media all and (orientation: portrait) {
 	
