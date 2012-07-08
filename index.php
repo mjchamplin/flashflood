@@ -58,7 +58,7 @@
 	
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
 	<script src="_/js/modernizr-1.7.min.js"></script>
-
+	<?php include '_/php/contactengine.php'; ?>
 </head>
 
 <body>
@@ -88,8 +88,6 @@
 			<h3>Get in touch.</h3>			
 		<div id="contactWrapper" role="form">
 	
-		<h1 role="heading">Send us a message</h1>
-
 		<?php if(isset($hasError)) { //If errors are found ?>
 			<p class="error">Please check if you've filled all the fields with valid information and try again. Thank you.</p>
 		<?php } ?>
@@ -103,28 +101,20 @@
 
 		<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform">
 			<div class="stage clear">
-				<label for="name"><strong>Name: <em>*</em></strong></label>
 				<input type="text" name="contactname" id="contactname" value="" class="required" role="input" aria-required="true" />
 			</div>
 
 			<div class="stage clear">
-				<label for="email"><strong>Email: <em>*</em></strong></label>
 				<input type="text" name="email" id="email" value="" class="required email" role="input" aria-required="true" />
 			</div>
 
 			<div class="stage clear">
-				<label for="subject"><strong>Subject: <em>*</em></strong></label>
-				<input type="text" name="subject" id="subject" value="" class="required" role="input" aria-required="true" />
-			</div>
-
-			<div class="stage clear">
-				<label for="message"><strong>Message: <em>*</em></strong></label>
 				<textarea rows="8" name="message" id="message" class="required" role="textbox" aria-required="true"></textarea>
 			</div>
 								
-			<p class="requiredNote"><em>*</em> Denotes a required field.</p>
 			
 			<input type="submit" value="Send Message" name="submit" id="submitButton" title="Click here to submit your message!" />
+			<div class="clear"></div>
 		</form>
 		
 	</div>
@@ -134,7 +124,10 @@
 		
 		
 		
-		<section class="middle">b</section>	
+		<section class="middle">
+			<h2>Come say hello!</h2>
+			<img src="_/img/map.jpg" />
+		</section>	
 	</article> 
 
 	

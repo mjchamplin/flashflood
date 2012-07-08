@@ -9,12 +9,6 @@ if(isset($_POST['submit'])) {
 		$name = trim($_POST['contactname']);
 	}
 
-	//Check to make sure that the subject field is not empty
-	if(trim($_POST['subject']) == '') {
-		$hasError = true;
-	} else {
-		$subject = trim($_POST['subject']);
-	}
 
 	//Check to make sure sure that a valid email address is submitted
 	if(trim($_POST['email']) == '')  {
@@ -38,8 +32,8 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'your@emailaddress.com'; //Put your own email address here
-		$body = "Name: $name \n\nEmail: $email \n\nSubject: $subject \n\nComments:\n $comments";
+		$emailTo = 'mjchamplin@gmail.com'; //Put your own email address here
+		$body = "Name: $name \n\nEmail: $email \n\nComments:\n $comments";
 		$headers = 'From: My Site <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);

@@ -17,10 +17,6 @@ $(document).ready(function (){
 				required: true,
 				email: true
 			},
-			subject: {
-				required: true,
-				minlength: 2
-			},
 			message: {
 				required: true,
 				minlength: 10
@@ -34,10 +30,6 @@ $(document).ready(function (){
 			email: {
 				required: "Please enter a valid email address",
 				minlength: "Please enter a valid email address"
-			},
-			subject: {
-				required: "You need to enter a subject!",
-				minlength: jQuery.format("Enter at least {0} characters")
 			},
 			message: {
 				required: "You need to enter a message!",

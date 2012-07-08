@@ -10,7 +10,7 @@
 -------------------------------------------------------------------------------*/
 
 @import url("contact.css");
-
+@import url("fonts.css");
 
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
@@ -126,8 +126,7 @@ button {width: auto; overflow: visible;}
 /* Ok, this is where the fun starts.
 -------------------------------------------------------------------------------*/
 
-/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body {font: 13px Helmet, Freesans, sans-serif;}
+
 
 /* using local fonts? make sure to read up on Paul Irish's 
 	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
@@ -154,10 +153,11 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* Global Declarations */
 
-body { font-size: 13px; background: #454545; }
+body {  font-family: Georgia, serif; font-size: 13px; background: #454545; }
+h1,h2,h3 {  font-family: Glypha, Georgia, serif; margin-bottom: .25em; }
 h1 { font-size: 3em; }
 h2 { font-size: 2.2em; }
-h3 { font-size: 1.7em; }
+h3 { font-size: 1.7em; font-weight: normal; font-style: italic; }
 .clear { clear: both; }
 
 /* Global classes */
@@ -172,7 +172,7 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background
 article { width: 100%; }
 article#upper { background: url('printing.jpeg') no-repeat center; }
 article#lower { background: #454545; border-top: 3px solid #fff; }
-  article#lower section { margin-top: 3em; background: #333; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+  article#lower section { margin-top: 3em; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
  
 
 .wrapper-inner { width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
