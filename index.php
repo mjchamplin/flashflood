@@ -107,7 +107,7 @@
 			</div>
 
 			<div class="stage clear">
-				<input type="text" name="email" id="email" value="" class="required email" role="input" aria-required="true" />
+				<input type="email" name="email" id="email" value="" class="required email" role="input" aria-required="true" />
 			</div>
 
 			<div class="stage clear">
