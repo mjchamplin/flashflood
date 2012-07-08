@@ -153,7 +153,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* Global Declarations */
 
-body {  font-family: Georgia, serif; font-size: 13px; background: #454545; }
+body {  font-family: Georgia, serif; font-size: 18px; background: #454545; }
 h1,h2,h3 {  font-family: Glypha, Georgia, serif; margin-bottom: .25em; }
 h1 { font-size: 3em; }
 h2 { font-size: 2.2em; }
