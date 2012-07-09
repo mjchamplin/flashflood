@@ -9,6 +9,7 @@
 	
 -------------------------------------------------------------------------------*/
 
+
 @import url("contact.css");
 @import url("fonts.css");
 
@@ -134,8 +135,8 @@ button {width: auto; overflow: visible;}
 
 body, select, input, textarea {color: #fff;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
+a {color: #fff;}
+a:hover {color: #ccc;}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #888; color: #fff; text-shadow: none; }
@@ -248,4 +249,7 @@ article#lower section { max-width: 1160px; }
 @media all and (orientation: landscape) {
 	
 }
+
+a.mjchamplin {color: #ccc; text-decoration: none; border-bottom: 1px solid #ccc;}
+a.mjchamplin:hover { text-decoration: none; border-bottom: 1px solid #d98116; }
 

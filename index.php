@@ -139,7 +139,7 @@
 
 	
 	<footer>
-		<p>copyright 2012 flash flood <img src="_/img/warning-logo.png" class="warning" /> website by michael j. champlin</p>		
+		<p>copyright 2012 flash flood <img src="_/img/warning-logo.png" class="warning" /> website by <a class="mjchamplin" href="http://mjchamplin.com">michael j. champlin</a></p>		
 	</footer>
 
 <!-- here comes the javascript -->
