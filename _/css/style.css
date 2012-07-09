@@ -184,7 +184,7 @@ article#lower { background: #454545; border-top: 3px solid #fff; }
 
 
 footer { }
-footer p { text-align: center; margin: 2em 0; font-size: .8em; font-family: Glypha, serif; letter-spacing: .1em; color: #ccc; }
+footer p { text-align: center; margin: 3em 0 0; font-size: .8em; font-family: Glypha, serif; letter-spacing: .1em; color: #ccc; }
 footer img.warning { height: 2.5em; width: 2.5em; vertical-align: middle; margin: 0 .5em 1em; }
 
 /* Print styles!
