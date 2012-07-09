@@ -75,12 +75,17 @@
 		<div class="wrapper-inner middle">		
 			<div id="left-column">
 			<h1>Commercial</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>				</div>
+			<p>We create beautiful limited-edition event posters and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
+			<p>Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality. We handle jobs of all shapes and sizes on a wide variety of materials.</p>
+			<p>Contact us for a custom quote.</p>
+			</div>
 			<div id="right-column">
 				<h1>Community</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>We put the space, equipment, and expertise necessary to learn or continue printmaking in the hands of local artists and designers by offering studio rental, classes, workshops and community outreach programs.</p>
+				<p>As leaders in a growing local printmaking community, we strive for a fun and creative environment &mdash; and <strong>we want you to join us.</strong></p>
 			</div>		
 			<div class="clear"></div>
+			<img src="_/img/warning-logo.png" class="warning"/>
 		</div>
 	</article>
 	
@@ -128,13 +133,13 @@
 		
 		<section class="middle">
 			<h2>Come say hello!</h2>
-			<img src="_/img/map.jpg" />
+			<img src="_/img/map.gif" />
 		</section>	
 	</article> 
 
 	
 	<footer>
-		<p>&copy; 2012 flash flood -LOGO- website by michael j. champlin</p>		
+		<p>copyright 2012 flash flood <img src="_/img/warning-logo.png" class="warning" /> website by michael j. champlin</p>		
 	</footer>
 
 <!-- here comes the javascript -->

@@ -157,12 +157,14 @@ body {  font-family: Georgia, serif; font-size: 13px; background: #454545; }
 h1,h2,h3 {  font-family: Glypha, Georgia, serif; margin-bottom: .25em; }
 h1 { font-size: 3em; }
 h2 { font-size: 2.2em; }
-h3 { font-size: 1.7em; font-weight: normal; font-style: italic; }
+h3 { font-size: 1.7em; font-weight: normal; font-style: italic; color: #d2d2d2}
 .clear { clear: both; }
 
 /* Global classes */
 
 .middle { margin: 0 auto; }
+.middle img.warning { height: 3.5em; width: 3.5em;  margin: 0 auto; display: block; margin-top: 2em;}
+
 
 /* Content */
 
@@ -173,14 +175,16 @@ article { width: 100%; }
 article#upper { background: url('printing.jpeg') no-repeat center; }
 article#lower { background: #454545; border-top: 3px solid #fff; }
   article#lower section { margin-top: 3em; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
- 
+#left-column p, #right-column p { font-size: 1.3em; margin-bottom: 1em; }
+#left-column { margin-bottom: 1.5em; } 
 
 .wrapper-inner { width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
 
 
 
 footer { }
-footer p { text-align: center; margin: 2em 0; }
+footer p { text-align: center; margin: 2em 0; font-size: .8em; font-family: Glypha, serif; letter-spacing: .1em; color: #ccc; }
+footer img.warning { height: 2.5em; width: 2.5em; vertical-align: middle; margin: 0 .5em 1em; }
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
@@ -207,6 +211,7 @@ footer p { text-align: center; margin: 2em 0; }
 
 @media only screen and (min-width: 600px) {
 
+footer p { font-size: 1em; }
 }
 
 @media only screen and (min-width: 768px) {
@@ -217,11 +222,11 @@ body { font-size: 16px; }
 
 @media only screen and (min-width: 992px) {
 
-.wrapper-inner { padding: 4em 0; }
+.wrapper-inner { padding: 2em 0; }
 #left-column, #right-column { padding: 2em 70px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
 #left-column p, #right-column p { text-align: justify; }
 #left-column h1, #right-column h1 { text-align: center; }
-#left-column { width: 50%; float: left; border-right: 1px solid #fff;}
+#left-column { width: 50%; float: left; border-right: 1px solid #fff; margin: 0;}
 #right-column { width: 50%; float: left; }
 article#lower section { padding: 0 70px; }
 
