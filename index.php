@@ -116,14 +116,10 @@
 
 <!-- this is where we put our custom functions -->
 <script src="_/js/functions.js"></script>
-
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
 <script>
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_setAccount', 'UA-33305330-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -133,7 +129,9 @@
   })();
 
 </script>
--->
+
+  
+
   
 </body>
 </html>
