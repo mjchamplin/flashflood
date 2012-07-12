@@ -10,11 +10,10 @@
 <head id="www-sitename-com" data-template-set="html5-reset">
 
 	<meta charset="utf-8">
-	
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title></title>
+	<title>Flash Flood Print Studios &mdash; Tulsa, Oklahoma</title>
 	
 	<meta name="title" content="">
 	<meta name="description" content="">
@@ -67,17 +66,16 @@
 
 	<header>		
 		<div class="logo middle">
-			<img src="_/img/logo.png" class="middle" />	
-		</div>				
+			<img src="_/img/logo.png" class="middle" />
+		</div>
 	</header>
 
 	<article id="upper">
 		<div class="wrapper-inner middle">		
 			<div id="left-column">
 			<h1>Commercial</h1>
-			<p>We create beautiful limited-edition event posters and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
-			<p>Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality. We handle jobs of all shapes and sizes on a wide variety of materials.</p>
-			<p>Contact us for a custom quote.</p>
+			<p>We create beautiful limited-edition event posters, t-shirts and more &mdash; all designed and printed <strong>by hand</strong> in Tulsa, Oklahoma.</p>
+			<p>Our commercial print operation satisfies the needs of businesses and individuals looking for unparalleled design and quality. We handle jobs of all shapes and sizes on a wide variety of materials. Contact us for a custom quote.</p>
 			</div>
 			<div id="right-column">
 				<h1>Community</h1>

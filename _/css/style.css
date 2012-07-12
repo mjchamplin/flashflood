@@ -173,7 +173,7 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background
   .logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 article { width: 100%; }
-article#upper { background: url('printing.jpeg') no-repeat center; }
+article#upper { background: url('printing.jpeg') no-repeat center; background-size: cover; }
 article#lower { background: #454545; border-top: 3px solid #fff; }
   article#lower section { margin-top: 3em; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 #left-column p, #right-column p { font-size: 1.3em; margin-bottom: 1em; }
