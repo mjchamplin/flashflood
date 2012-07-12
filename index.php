@@ -102,7 +102,7 @@
 
 	
 	<footer>
-		<p>copyright 2012 flash flood <img src="_/img/warning-logo.png" class="warning" /> website by <a class="mjchamplin" href="http://mjchamplin.com">michael j. champlin</a></p>		
+		<p>&copy; 2012 flash flood <img src="_/img/warning-logo.png" class="warning" /> site by <a class="mjchamplin" href="http://mjchamplin.com">michael j. champlin</a></p>		
 	</footer>
 
 <!-- here comes the javascript -->
