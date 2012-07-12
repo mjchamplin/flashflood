@@ -170,7 +170,14 @@ h3 { font-size: 1.7em; font-weight: normal; font-style: italic; color: #d2d2d2}
 /* Content */
 
 header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background: #fff; }
-  .logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  header .wrapper-inner { padding: 0; }
+  .header-1 { display: none; }
+  .header-2 { width: 100%; text-align: center;}  
+    .logo { width: 100%; /*max-width: 440px;*/ padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  .header-3 { margin-top: 1em; }
+    #social { width: 100%; text-align: center; }
+      #social img { margin-left: 6px;}
+      #social img:hover { opacity: .6; }
 
 article { width: 100%; }
 article#upper { background: url('printing.jpeg') no-repeat center; background-size: cover; }
@@ -223,6 +230,10 @@ body { font-size: 16px; }
 
 @media only screen and (min-width: 992px) {
 
+.header-1, .header-3 { width: 25%; float: left; height: 100px; display: block; }
+.header-2 { width: 50%; float: left; text-align: center;}
+.header-3 #social { margin-top: 30px; height: 32px; }
+
 .wrapper-inner { padding: 2em 0; }
 #left-column, #right-column { padding: 2em 70px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;	}
 #left-column p, #right-column p { text-align: justify; }
@@ -254,3 +265,8 @@ article#lower section { max-width: 1160px; }
 a.mjchamplin {color: #ccc; text-decoration: none; border-bottom: 1px solid #ccc;}
 a.mjchamplin:hover { text-decoration: none; border-bottom: 1px solid #d98116; }
 
+
+/* Tooltips */
+#tooltip { position: absolute; z-index: 3000; border: 1px solid #111; background-color: #eee; padding: 5px; opacity: 0.85; color: #333; }
+#tooltip h3, #tooltip div { margin: 0; }
+#tooltip h3 { color: #333; font-size: 1.3em; font-weight: bold;}

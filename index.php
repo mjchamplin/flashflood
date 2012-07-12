@@ -7,7 +7,7 @@
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
 
-<head id="www-sitename-com" data-template-set="html5-reset">
+<head id="www-flashfloodprint-com" data-template-set="html5-reset">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	
 	<title>Flash Flood Print Studios &mdash; Tulsa, Oklahoma</title>	
@@ -29,9 +29,26 @@
 
 <body>
 
-	<header>		
-		<div class="logo middle">
-			<img src="_/img/logo.png" class="middle" />
+	<header>
+		<div class="wrapper-inner middle">
+		<div class="header-1"></div>		
+		<div class="header-2 logo">
+			<img src="_/img/logo.png" />
+		</div>
+		<div class="header-3">
+			<div id="social">
+			<a href="http://facebook.com/flashfloodprint" title="Like Flash Flood on Facebook!">
+			  <img src="_/img/facebook.png" />
+			</a>
+			<a href="http://twitter.com/flashfloodprint" title="Follow us on Twitter!">
+			  <img src="_/img/twitter.png" />
+			</a>
+			<a href="http://eepurl.com/nA8XH" title="Subscribe to our mailing list!">
+			  <img src="_/img/email.png" />
+			</a>
+			</div>
+		</div>
+		<div class="clear"></div>
 		</div>
 	</header>
 
@@ -113,6 +130,9 @@
 
 <!-- Form Validation -->
 <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.pack.js" type="text/javascript"></script>
+
+<!-- Tooltips --> 
+<script src="_/js/jquery.tooltip.min.js"></script>
 
 <!-- this is where we put our custom functions -->
 <script src="_/js/functions.js"></script>

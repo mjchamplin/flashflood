@@ -41,6 +41,12 @@ $(document).ready(function (){
 			label.addClass("checked");
 		}
 	});
+	
+	// fancy tooltips
+	$(function() {
+		$('#social *').tooltip();
+    });
+
 
 });
 
