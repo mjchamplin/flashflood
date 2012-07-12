@@ -71,15 +71,15 @@
 
 		<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform">
 			<div class="stage clear">
-				<input type="text" name="contactname" id="contactname" value="" class="required" role="input" aria-required="true" />
+				<input type="text" name="contactname" id="contactname" value="Name..." class="required" role="input" aria-required="true" onclick="this.value='';" />
 			</div>
 
 			<div class="stage clear">
-				<input type="email" name="email" id="email" value="" class="required email" role="input" aria-required="true" />
+				<input type="email" name="email" id="email" value="Email..." class="required email" role="input" aria-required="true" onclick="this.value='';"/>
 			</div>
 
 			<div class="stage clear">
-				<textarea rows="8" name="message" id="message" class="required" role="textbox" aria-required="true"></textarea>
+				<textarea rows="8" name="message" id="message" class="required" role="textbox" aria-required="true" value="Message..." onclick="this.value='';"></textarea>
 			</div>
 								
 			
