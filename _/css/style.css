@@ -175,7 +175,7 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background
 article { width: 100%; }
 article#upper { background: url('printing.jpeg') no-repeat center; background-size: cover; }
 article#lower { background: #454545; border-top: 3px solid #fff; }
-  article#lower section { margin-top: 3em; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+  article#lower section { margin-top: 1.5em; min-height: 200px;  width: 100%;  max-width: 960px; padding: 2em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 #left-column p, #right-column p { font-size: 1.3em; margin-bottom: 1em; }
 #left-column { margin-bottom: 1.5em; } 
 
@@ -229,7 +229,7 @@ body { font-size: 16px; }
 #left-column h1, #right-column h1 { text-align: center; }
 #left-column { width: 50%; float: left; border-right: 1px solid #fff; margin: 0;}
 #right-column { width: 50%; float: left; }
-article#lower section { padding: 0 70px; }
+article#lower section { padding: 0 70px; margin-top: 3em;}
 
 
 }
