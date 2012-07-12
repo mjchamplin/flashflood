@@ -19,7 +19,7 @@
 	<meta name="DC.title" content="Flash Flood Print Studios">
 	<meta name="DC.creator" content="Michael J. Champlin">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta property="og:image" content="_/img/logo.png"/>
+	<meta property="og:image" content="http://flashfloodprint.com/_/img/logo.png"/>
 	<meta property="og:title" content="Flash Flood Print Studios"/>
 	<meta property="og:url" content="http://flashfloodprint.com"/>
 	<meta property="og:site_name" content="Flash Flood Print Studios"/>
