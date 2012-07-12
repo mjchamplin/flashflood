@@ -43,13 +43,13 @@
 		<div class="header-3">
 			<div id="social">
 			<a href="http://facebook.com/flashfloodprint" title="Like Flash Flood on Facebook!">
-			  <img src="_/img/facebook.png" />
+			  <img src="_/img/facebook.png" width="34" height="34" />
 			</a>
 			<a href="http://twitter.com/flashfloodprint" title="Follow us on Twitter!">
-			  <img src="_/img/twitter.png" />
+			  <img src="_/img/twitter.png" width="34" height="34" />
 			</a>
 			<a href="http://eepurl.com/nA8XH" title="Subscribe to our mailing list!">
-			  <img src="_/img/email.png" />
+			  <img src="_/img/email.png" width="34" height="34" />
 			</a>
 			</div>
 		</div>
