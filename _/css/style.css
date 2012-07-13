@@ -173,7 +173,7 @@ header { width: 100%; padding: 40px 0; border-bottom: 5px solid #333; background
   header .wrapper-inner { padding: 0; }
   .header-1 { display: none; }
   .header-2 { width: 100%; text-align: center;}  
-    .logo { width: 100%; /*max-width: 440px;*/ padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    .logo { width: 100%; max-width: 440px; padding: 0 50px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0 auto;}
   .header-3 { margin-top: 1em; }
     #social { width: 100%; text-align: center; }
       #social img { margin-left: 6px;}
