@@ -37,8 +37,8 @@
 	<header>
 		<div class="wrapper-inner middle">
 		<div class="header-1"></div>		
-		<div class="header-2 logo">
-			<img src="_/img/logo.png" />
+		<div class="header-2">
+			<img class="logo" src="_/img/logo.png" />
 		</div>
 		<div class="header-3">
 			<div id="social">
