@@ -118,7 +118,7 @@
 		
 		<section class="middle">
 			<h2>Come say hello!</h2>
-			<img src="_/img/map.gif" />
+			<iframe style='width: 100%; height: 500px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/mjchamplin.map-7l8vccna.html#15/36.1509225365984/-95.97909450531006'></iframe>
 		</section>	
 	</article> 
 
